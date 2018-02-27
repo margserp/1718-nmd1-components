@@ -9,3 +9,9 @@
     left: 45%;
     top: 20px;
 }
+
+.btn:hover{
+    background-color: #820333;
+    border-color: #820333;
+}
+
