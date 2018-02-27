@@ -2,18 +2,31 @@
     font-family: Arial, Helvetica, sans-serif;
     font-weight: bolder;
     padding: 8px 16px;
-    /**border: 1px solid rgba(238,238,238 ,1);**/
+    /**geen border tenzij kleur wordt aangesproken**/
+    border: 1px solid transparent;
     border-radius: 8px;
     text-decoration: none;
-}
-.btn:hover{
-    background-color: rgba(63,81,181 ,1);
 }
 .btn--primary{
     color: rgba(238,238,238 ,1);
     background: rgba(49,27,146 ,1);
 }
+.btn--primary:hover{
+    background: rgba(63,81,181 ,1);
+}
 .btn--secundary{
     color: rgba(238,238,238 ,1);
     background: rgba(183,28,28 ,1);
+}
+.btn--secundary:hover{
+    background: rgba(244,67,54 ,1);
+}
+/**spookknop**/
+.btn--tertairy{
+    color: rgba(46,125,50 ,1);
+    border-color: rgba(46,125,50 ,1);
+}
+.btn--tertairy:hover{
+    border-color: rgba(76,175,80 ,1);
+    color: rgba(76,175,80 ,1)
 }
