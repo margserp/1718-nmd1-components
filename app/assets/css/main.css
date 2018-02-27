@@ -1,17 +1,15 @@
 .btn{
     font-family: Arial, Helvetica, sans-serif;
-    color: white;
-    background-color: #C9283E;
-    padding: 10px;
-    border: 2px solid #C9283E;
-    border-radius: 5px;
-    position: absolute;
-    left: 45%;
-    top: 20px;
+    font-weight: bolder;
+    color: rgba(238,238,238 ,1);
+    background: rgba(49,27,146 ,1);
+    padding: 8px 16px;
+    border: 1px solid rgba(238,238,238 ,1);
+    border-radius: 8px;
+    text-decoration: none;
 }
 
 .btn:hover{
-    background-color: #820333;
-    border-color: #820333;
+    background-color: rgba(63,81,181 ,1);
 }
 
